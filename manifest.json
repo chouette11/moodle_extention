@@ -1,16 +1,13 @@
 {
-	"name": "元気が出るスイッチ",
-	"manifest_version": 3,
-	"version": "0.1",
-	"permissions": ["activeTab","scripting","tabs"],
-    "content_scripts": [
-      {
-        "matches":  ["http://*/*", "https://*/*"],
-        "js": ["content_script.js"]
-      }
-    ],
-	"background": {
-		"service_worker": "alert.js"
-	},
-	"action": {}
+  "name": "moodle",
+  "manifest_version": 3,
+  "version": "0.1",
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["https://ict-t.el.kyutech.ac.jp/*/"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAztnZILH1wpAISKXHZYzwFZd2M5XOoJrzScd+fYOe9rdJyALgM+B9O0D2s7xIApqREolii7IN8OEahFv9nhjhcUwMywURLJ6EIrxfcEHOyPZvnUWbaPqbNP4F3oRfVQzHzRRnOVj9dlGsBNJWwGi8TXpRivSVhDtkVeo/775chrWm+D8fmTTjxRAb5VLHt8xCdHff6U8cH+wXQz6x6nusOwBGgLFwaqYR7XgU6yKDer+N684J66ACO7kdD+AlWOdvvI9/cjJMuvhGuuOtCX3oM2wLWU//f7rnH3Ai4ky+uJIvPHCViwqlN4+u70tne9ZyG65g7yRJOWofexrKRJE87wIDAQAB"
 }
