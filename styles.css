@@ -52,5 +52,19 @@ button:hover {
     align-items: center;
     padding-bottom: 4px;
 }
-  
- 
+
+.justify-content-space {
+    justify-content:space-between;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.red {
+    background-color: red;
+}
