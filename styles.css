@@ -13,7 +13,7 @@ button:hover {
     cursor: pointer;
 }
   
-.within-24hours-area {
+.within-area {
     background-color: #ffffe0;
     width: 400px;
     min-height: 200px;
@@ -22,23 +22,7 @@ button:hover {
     border:#000;
 }
   
-.within-3days-area {
-    background-color:#ffffe0;
-    width: 400px;
-    min-height: 200px;
-    padding: 8px;
-    margin: 8px;
-    border:#000;
-}
 
-.within-5days-area {
-    background-color:#ffffe0;
-    width: 400px;
-    min-height: 200px;
-    padding: 8px;
-    margin: 8px;
-    border:#000;
-}
   
 .title {
     text-align: center;
